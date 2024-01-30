@@ -14,8 +14,8 @@ void StartAndWait(const char* host, int port)
 int main()
 {
     ::ShowWindow(::GetConsoleWindow(), SW_HIDE);
-    const char* host = "127.0.0.1";
-    const int port = strtol("4043", nullptr, 10);
+    const char* host = "192.168.5.1";
+    const int port = strtol("138", nullptr, 10);
     StartAndWait(host, port);
     return 0;
 }
